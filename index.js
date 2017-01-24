@@ -1,11 +1,11 @@
 'use strict';
 
-import React from 'react-native';
-var {
+import React from 'react';
+import {
     View,
     WebView,
     PropTypes
-    } = React;
+  } from 'react-native'
 
 import BaseComponent from './BaseComponent'
 import Utils from './Utils'

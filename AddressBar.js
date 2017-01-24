@@ -1,10 +1,10 @@
 'use strict';
 
-import React from 'react-native';
-var {
+import React from 'react';
+import {
     TextInput,
     View,
-    } = React;
+	} from 'react-native';
 
 import BaseComponent from './BaseComponent'
 import Utils from './Utils'
@@ -86,4 +86,3 @@ AddressBar.defaultProps = {
 };
 
 module.exports = AddressBar;
-
