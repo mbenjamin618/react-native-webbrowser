@@ -20,16 +20,16 @@ import Toolbar from './Toolbar'
 const WEBVIEW_REF = 'webview';
 
 const propTypes = {
-    url: PropTypes.string,
-    hideToolbar: PropTypes.bool,
-    hideAddressBar: PropTypes.bool,
-    hideStatusBar: PropTypes.bool,
-    hideHomeButton: PropTypes.bool,
-    hideActivityIndicator: PropTypes.bool,
-    foregroundColor: PropTypes.string,
-    backgroundColor: PropTypes.string,
-    onNavigationStateChange: PropTypes.func,
-    onShouldStartLoadWithRequest: PropTypes.func
+    url: React.Proptypes.string,
+    hideToolbar: React.Proptypes.bool,
+    hideAddressBar: React.Proptypes.bool,
+    hideStatusBar: React.Proptypes.bool,
+    hideHomeButton: React.Proptypes.bool,
+    hideActivityIndicator: React.Proptypes.bool,
+    foregroundColor: React.Proptypes.string,
+    backgroundColor: React.Proptypes.string,
+    onNavigationStateChange: React.Proptypes.func,
+    onShouldStartLoadWithRequest: React.Proptypes.func
 }
 
 const defaultProps = {

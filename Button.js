@@ -94,12 +94,12 @@ class Button extends Component {
 }
 
 Button.propTypes = {
-    loading: PropTypes.bool,
-    disabled: PropTypes.bool,
-    onPress: PropTypes.func,
-    onLongPress: PropTypes.func,
-    onPressIn: PropTypes.func,
-    onPressOut: PropTypes.func
+    loading: React.PropTypes.bool,
+    disabled: React.PropTypes.bool,
+    onPress: React.PropTypes.func,
+    onLongPress: React.PropTypes.func,
+    onPressIn: React.PropTypes.func,
+    onPressOut: React.PropTypes.func
 };
 
 var styles = StyleSheet.create({
